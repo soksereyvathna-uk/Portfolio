@@ -764,19 +764,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
   .h-stat .num { font-size: 1.2rem; }
 }
 
-  
-[data-ani]{opacity:0;transition:opacity 0.75s cubic-bezier(0.16,1,0.3,1),transform 0.75s cubic-bezier(0.16,1,0.3,1);will-change:opacity,transform}
-[data-ani="up"]{transform:translateY(48px)}
-[data-ani="left"]{transform:translateX(-55px)}
-[data-ani="right"]{transform:translateX(55px)}
-[data-ani="scale"]{transform:scale(0.87) translateY(18px)}
-[data-ani].in{opacity:1!important;transform:none!important}
-[data-delay="1"]{transition-delay:.07s}[data-delay="2"]{transition-delay:.15s}
-[data-delay="3"]{transition-delay:.23s}[data-delay="4"]{transition-delay:.31s}
-[data-delay="5"]{transition-delay:.39s}[data-delay="6"]{transition-delay:.47s}
-[data-delay="7"]{transition-delay:.55s}[data-delay="8"]{transition-delay:.63s}
-[data-delay="9"]{transition-delay:.71s}
-</style>
+  </style>
 </head>
 <body>
 
@@ -898,11 +886,11 @@ body.light footer { background:rgba(226,232,240,0.97); }
   ══════════════════════════════════ -->
   <section id="about">
     <div class="wrap">
-      <p class="sec-tag" data-ani="up">01 // identity</p>
-      <h2 class="sec-h" data-ani="up" data-delay="1">About <em>Me</em></h2>
+      <p class="sec-tag">01 // identity</p>
+      <h2 class="sec-h">About <em>Me</em></h2>
       <div class="about-g">
 
-        <div data-ani="left" data-delay="2">
+        <div>
           <div class="gc">
             <p class="about-p">
               I'm an <strong>Information Technology student</strong> at Torrens University, Melbourne
@@ -931,8 +919,8 @@ body.light footer { background:rgba(226,232,240,0.97); }
           </div>
         </div>
 
-        <div data-ani="right" data-delay="2">
-          <div class="gc" data-ani="right" data-delay="2" style="height:100%">
+        <div>
+          <div class="gc" style="height:100%">
             <div class="stat-block">
               <div class="s-lbl">DEGREE</div>
               <div class="s-val">Bachelor Of Information Technology<br><span>Torrens University · 2025–2027 December</span></div>
@@ -965,10 +953,10 @@ body.light footer { background:rgba(226,232,240,0.97); }
   ══════════════════════════════════ -->
   <section id="skills">
     <div class="wrap">
-      <p class="sec-tag" data-ani="up">02 // arsenal</p>
-      <h2 class="sec-h" data-ani="up" data-delay="1">Skills &amp; <em>Tech Stack</em></h2>
+      <p class="sec-tag">02 // arsenal</p>
+      <h2 class="sec-h">Skills &amp; <em>Tech Stack</em></h2>
 
-      <div class="skill-section" data-ani="up" data-delay="1">
+      <div class="skill-section">
         <h3>Programming Languages</h3>
         <div class="skills-g">
           <div class="sk"><i class="fab fa-js-square si" style="color:#eab308"></i><p>JavaScript</p></div>
@@ -980,7 +968,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
         </div>
       </div>
 
-      <div class="skill-section" data-ani="up" data-delay="2">
+      <div class="skill-section">
         <h3>Web Development</h3>
         <div class="skills-g">
           <div class="sk"><i class="fab fa-react si" style="color:#06b6d4"></i><p>React</p></div>
@@ -994,7 +982,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
         </div>
       </div>
 
-      <div class="skill-section" data-ani="up" data-delay="3">
+      <div class="skill-section">
         <h3>Cybersecurity &amp; Cloud</h3>
         <div class="skills-g">
           <div class="sk"><i class="fab fa-aws si" style="color:#f59e0b"></i><p>AWS</p></div>
@@ -1009,7 +997,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
         </div>
       </div>
 
-      <div class="skill-section" data-ani="up" data-delay="4">
+      <div class="skill-section">
         <h3>OS &amp; Networking</h3>
         <div class="skills-g">
           <div class="sk"><i class="fab fa-windows si" style="color:#3b82f6"></i><p>Windows 11</p></div>
@@ -1028,11 +1016,11 @@ body.light footer { background:rgba(226,232,240,0.97); }
   ══════════════════════════════════ -->
   <section id="projects">
     <div class="wrap">
-      <p class="sec-tag" data-ani="up">03 // build log</p>
-      <h2 class="sec-h" data-ani="up" data-delay="1">Recent <em>Projects</em></h2>
+      <p class="sec-tag">03 // build log</p>
+      <h2 class="sec-h">Recent <em>Projects</em></h2>
       <div class="proj-g">
 
-        <div class="pcard" data-ani="left" data-delay="1">
+        <div class="pcard">
           <div class="pcard-img">
             <div class="pcard-icon">🖥️</div>
             <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=75" alt="" onerror="this.style.display='none'">
@@ -1046,7 +1034,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
           </div>
         </div>
 
-        <div class="pcard" data-ani="right" data-delay="1">
+        <div class="pcard">
           <div class="pcard-img">
             <div class="pcard-icon">☁️</div>
             <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=75" alt="" onerror="this.style.display='none'">
@@ -1060,7 +1048,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
           </div>
         </div>
 
-        <div class="pcard" data-ani="up" data-delay="2">
+        <div class="pcard">
           <div class="pcard-img">
             <div class="pcard-icon">🔍</div>
             <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=75" alt="" onerror="this.style.display='none'">
@@ -1074,7 +1062,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
           </div>
         </div>
 
-        <div class="pcard" data-ani="left" data-delay="2">
+        <div class="pcard">
           <div class="pcard-img">
             <div class="pcard-icon">🛒</div>
             <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=75" alt="" onerror="this.style.display='none'">
@@ -1088,7 +1076,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
           </div>
         </div>
 
-        <div class="pcard" data-ani="right" data-delay="3">
+        <div class="pcard">
           <div class="pcard-img">
             <div class="pcard-icon">📋</div>
             <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=75" alt="" onerror="this.style.display='none'">
@@ -1102,7 +1090,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
           </div>
         </div>
 
-        <div class="pcard" data-ani="scale" data-delay="3">
+        <div class="pcard">
           <div class="pcard-img">
             <div class="pcard-icon">💻</div>
             <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&q=75" alt="" onerror="this.style.display='none'">
@@ -1130,11 +1118,11 @@ body.light footer { background:rgba(226,232,240,0.97); }
   ══════════════════════════════════ -->
   <section id="blog">
     <div class="wrap">
-      <p class="sec-tag" data-ani="up">04 // Blog</p>
-      <h2 class="sec-h" data-ani="up" data-delay="1">Security <em>Writeups</em></h2>
+      <p class="sec-tag">04 // Blog</p>
+      <h2 class="sec-h">Security <em>Writeups</em></h2>
       <div class="blog-g">
 
-        <a class="bcard" data-ani="left" data-delay="2" href="javascript:void(0)">
+        <a class="bcard" href="javascript:void(0)">
           <div class="bcard-top">
             <div class="bcard-meta">
               <span class="bcat bcat-pen">Pen Testing</span>
@@ -1158,7 +1146,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
           </div>
         </a>
 
-        <a class="bcard" data-ani="up" data-delay="3" href="javascript:void(0)">
+        <a class="bcard" href="javascript:void(0)">
           <div class="bcard-top">
             <div class="bcard-meta">
               <span class="bcat bcat-cld">Cloud</span>
@@ -1181,7 +1169,7 @@ body.light footer { background:rgba(226,232,240,0.97); }
           </div>
         </a>
 
-        <a class="bcard" data-ani="right" data-delay="4" href="javascript:void(0)">
+        <a class="bcard" href="javascript:void(0)">
           <div class="bcard-top">
             <div class="bcard-meta">
               <span class="bcat bcat-sec">Analysis</span>
@@ -1213,17 +1201,17 @@ body.light footer { background:rgba(226,232,240,0.97); }
   ══════════════════════════════════ -->
   <section id="certifications">
     <div class="wrap">
-      <p class="sec-tag" data-ani="up">05 // credentials</p>
-      <h2 class="sec-h" data-ani="up" data-delay="1">Certifications &amp; <em>Courses</em></h2>
+      <p class="sec-tag">05 // credentials</p>
+      <h2 class="sec-h">Certifications &amp; <em>Courses</em></h2>
       <div class="certs-g">
-        <div class="gc ccard" data-ani="left" data-delay="1"><div class="c-ico sec"><i class="fas fa-shield-alt"></i></div><div><div class="c-name">CompTIA Security+</div><div class="c-sub">Expected July 2026</div><span class="cbadge cbprog">IN PROGRESS</span></div></div>
-        <div class="gc ccard" data-ani="up" data-delay="2"><div class="c-ico aws"><i class="fab fa-aws"></i></div><div><div class="c-name">AWS Cloud Practitioner</div><div class="c-sub">Amazon Web Services <br>Completed May 2026</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
-        <div class="gc ccard" data-ani="right" data-delay="3"><div class="c-ico clk"><i class="fas fa-user-secret"></i></div><div><div class="c-name">Certified Ethical Hacker</div><div class="c-sub">Completed March 2026</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
-        <div class="gc ccard" data-ani="scale" data-delay="4"><div class="c-ico thm"><i class="fas fa-flag"></i></div><div><div class="c-name">TryHackMe , SOC L1 + Pre-Sec</div><div class="c-sub">Top 30% global badge</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
-        <div class="gc ccard" data-ani="left" data-delay="1"><div class="c-ico sec"><i class="fas fa-network-wired"></i></div><div><div class="c-name">Cisco Networking Basics</div><div class="c-sub">Cisco Academy · Feb 2026</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
-        <div class="gc ccard" data-ani="up" data-delay="2"><div class="c-ico clk"><i class="fas fa-lock"></i></div><div><div class="c-name">Intro to Cybersecurity</div><div class="c-sub">SalaCyber · March 2026</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
-        <div class="gc ccard" data-ani="right" data-delay="3"><div class="c-ico sec"><i class="fas fa-globe"></i></div><div><div class="c-name">Web Fundamentals</div><div class="c-sub">SalaCyber</div><span class="cbadge cbprog">IN PROGRESS</span></div></div>
-        <div class="gc ccard" data-ani="scale" data-delay="4"><div class="c-ico ms"><i class="fab fa-microsoft"></i></div><div><div class="c-name">Azure Admin Essentials</div><div class="c-sub">Microsoft Azure Training</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
+        <div class="gc ccard"><div class="c-ico sec"><i class="fas fa-shield-alt"></i></div><div><div class="c-name">CompTIA Security+</div><div class="c-sub">Expected July 2026</div><span class="cbadge cbprog">IN PROGRESS</span></div></div>
+        <div class="gc ccard"><div class="c-ico aws"><i class="fab fa-aws"></i></div><div><div class="c-name">AWS Cloud Practitioner</div><div class="c-sub">Amazon Web Services <br>Completed May 2026</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
+        <div class="gc ccard"><div class="c-ico clk"><i class="fas fa-user-secret"></i></div><div><div class="c-name">Certified Ethical Hacker</div><div class="c-sub">Completed March 2026</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
+        <div class="gc ccard"><div class="c-ico thm"><i class="fas fa-flag"></i></div><div><div class="c-name">TryHackMe , SOC L1 + Pre-Sec</div><div class="c-sub">Top 30% global badge</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
+        <div class="gc ccard"><div class="c-ico sec"><i class="fas fa-network-wired"></i></div><div><div class="c-name">Cisco Networking Basics</div><div class="c-sub">Cisco Academy · Feb 2026</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
+        <div class="gc ccard"><div class="c-ico clk"><i class="fas fa-lock"></i></div><div><div class="c-name">Intro to Cybersecurity</div><div class="c-sub">SalaCyber · March 2026</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
+        <div class="gc ccard"><div class="c-ico sec"><i class="fas fa-globe"></i></div><div><div class="c-name">Web Fundamentals</div><div class="c-sub">SalaCyber</div><span class="cbadge cbprog">IN PROGRESS</span></div></div>
+        <div class="gc ccard"><div class="c-ico ms"><i class="fab fa-microsoft"></i></div><div><div class="c-name">Azure Admin Essentials</div><div class="c-sub">Microsoft Azure Training</div><span class="cbadge cbdone">✓ COMPLETED</span></div></div>
       </div>
     </div>
   </section>
@@ -1233,11 +1221,11 @@ body.light footer { background:rgba(226,232,240,0.97); }
   ══════════════════════════════════ -->
   <section id="contact">
     <div class="wrap">
-      <p class="sec-tag" data-ani="up">06 // ping me</p>
-      <h2 class="sec-h" data-ani="up" data-delay="1">Get In <em>Touch</em></h2>
+      <p class="sec-tag">06 // ping me</p>
+      <h2 class="sec-h">Get In <em>Touch</em></h2>
       <div class="contact-g">
 
-        <div class="terminal-wrap" data-ani="left" data-delay="2">
+        <div class="terminal-wrap">
           <div class="t-bar">
             <div class="dot d1"></div><div class="dot d2"></div><div class="dot d3"></div>
             <span class="t-path">~/contact-form</span>
@@ -1467,14 +1455,6 @@ document.getElementById("cf").addEventListener("submit", async function(e) {
   }
 });
 
-
-(function(){
-  var o=new IntersectionObserver(function(e){
-    e.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");o.unobserve(x.target);}});
-  },{threshold:0.08,rootMargin:"0px 0px -30px 0px"});
-  function init(){document.querySelectorAll("[data-ani]").forEach(function(el){o.observe(el);});}
-  document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init();
-})();
   </script>
 
 </body>
